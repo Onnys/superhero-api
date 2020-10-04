@@ -102,12 +102,43 @@ class superheros(db.Model):
              'name': self.name,
              'slug': self.slug,
              'powerstats': {
-                 "intelligence": self.intelligence,
-                 "strength": self.strength,
-                 "speed": self.speed,
-                 "durability": self.durability,
-                 "power": self.power,
-                 "combat": self.combat
+                 'intelligence': self.intelligence,
+                 'strength': self.strength,
+                 'speed': self.speed,
+                 'durability': self.durability,
+                 'power': self.power,
+                 'combat': self.combat,
+             },
+             'appearance':{
+                 'gender': self.gender,
+                 'race': self.race,
+                 'height': self.height,
+                 'weight': self.weight,
+                 'eyeColor': self.eyeColor,
+                 'hairColor': self.hairColor,
+             },
+             'biography': {
+                 'fullName': self.fullName,
+                 'alterEgos': self.alterEgos,
+                 'aliases': self.aliases,
+                 'placeOfBirth': self.placeOfBirth,
+                 'firstAppearance': self.firstAppearance,
+                 'publisher': self.publisher,
+                 'alignment': self.alignment,
+             },
+             'work': {
+                 'occupation': self.occupation,
+                 'base': self.base,
+             },
+             'connections':{
+                 'groupAffiliation': self.groupAffiliation,
+                 'relatives': self.relatives,
+             },
+             'images':{
+                 'xs': self.xs,
+                 'sm': self.sm,
+                 'md': self.md,
+                 'lg':self.lg,
              }
          }
     # def powerstats(self):
