@@ -3,6 +3,22 @@ from flask_cors import CORS
 from Models import setup_db , superheros
 import json
 
+
+HERO_PER_PAGE = 2
+
+
+def paginate_heros(request):
+    page = request.args.get('page', 1, type=int)
+    try:
+        selection_of_heros = superheros.query.order_by(
+            superheros.id).paginate(page, per_page=HERO_PER_PAGE)
+    except:
+        abort(404)
+    superhero = [hero.format()
+                 for hero in selection_of_heros.items]
+
+    return superhero
+
 def create_app(test_config=None):
     app = Flask(__name__)
     setup_db(app)
@@ -20,9 +36,9 @@ def create_app(test_config=None):
     def hello():
         return 'Welcome'
 
-    @app.route('/superhero-api', methods=['GET'])
+    @app.route('/superheros', methods=['GET'])
     def superhero_api():
-        superhero = list(map(superheros.format, superheros.query.all()))
+        superhero = paginate_heros(request)
         return jsonify({
             'success': True,
             'superhero':superhero,
@@ -94,6 +110,14 @@ def create_app(test_config=None):
             'error': 400,
             'message': 'bad request'
         }), 400
+    
+    @app.errorhandler(404)
+    def not_found(error):
+        return jsonify({
+            'success': False,
+            'error': 404,
+            'message': 'Resource not found'
+        }), 404
 
     return app
 
