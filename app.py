@@ -26,20 +26,10 @@ def create_app(test_config=None):
 
     @app.route('/superhero-api', methods=['GET'])
     def superhero_api():
-        #superhero = 
-        #formated_hero = [superhero.format for superheros in superhero]
         superhero = list(map(superheros.format, superheros.query.all()))
         return jsonify({
             'success': True,
             'superhero':superhero,
-        #   'name': hero.name,
-        #   'slug': hero.slug,
-          #'powerstats': formated_hero, 
-        #   'appearance':,
-        #   'biography':,
-        #   'work':,
-        #   'connections':
-        #   'images':
         })
 
     @app.route('/add-superhero', methods=['POST'])
