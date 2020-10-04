@@ -4,7 +4,7 @@ from Models import setup_db , superheros
 import json
 
 
-HERO_PER_PAGE = 2
+HERO_PER_PAGE = 10
 
 
 def paginate_heros(request):
@@ -100,6 +100,7 @@ def create_app(test_config=None):
             abort(400)
         
         return jsonify({
+            'id':superhero.id,
             'success': True
         })
 
