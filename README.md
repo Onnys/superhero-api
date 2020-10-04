@@ -47,7 +47,7 @@ POST 'add-superhero'
 - Create a new Superhero.
 - Resquet Arguments: name, slug, intelligence, strength, speed, durability, power, combat, gender, race, height, weight, eyeColor, hairColor, fullName, alterEgos, aliases, placeOfBirth, firstAppearance, publisher, alignment, occupation, base, groupAffiliation, relatives, xs, sm, md, lg.
 - Returns:  success and a superhero id.
-bash```
+```bash
  {
     "id": 1,
     "name": "A-Bomb",
@@ -108,7 +108,7 @@ GET '/superheros?page=1'
 - Request Arguments: page
 - Returns: a success value and a list of 10 superheros 
 
-bash```
+```bash
 {
     "success": true,
     "superhero": [
