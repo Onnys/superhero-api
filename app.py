@@ -16,13 +16,9 @@ def create_app(test_config=None):
                              'GET,POST,DELETE')
         return response
 
-    @app.route("/")
+    @app.route('/')
     def hello():
-        # hero = Hero(name='onnys', slug='ola')
-    
-        return jsonify({
-            'success': True
-        })
+        return 'Welcome'
 
     @app.route('/superhero-api', methods=['GET'])
     def superhero_api():
