@@ -40,11 +40,12 @@ To run the server, execute:
 python app.py
 ```
 # End-points
-- /add-superhero
-- /superheros?page=1
-- /dc-comics
+* This API is deployed at 
+- https://superherosapi.herokuapp.com/add-superhero
+- https://superherosapi.herokuapp.com/superheros?page=1
+- https://superherosapi.herokuapp.com/dc-comics
 
-## POST 'add-superhero'
+## POST 'https://superherosapi.herokuapp.com/add-superhero'
 - Create a new Superhero.
 - Resquet Arguments: name, slug, intelligence, strength, speed, durability, power, combat, gender, race, height, weight, eyeColor, hairColor, fullName, alterEgos, aliases, placeOfBirth, firstAppearance, publisher, alignment, occupation, base, groupAffiliation, relatives, xs, sm, md, lg.
 - Returns:  success and a superhero id.
@@ -104,7 +105,7 @@ python app.py
   
 ```
 
-## GET '/superheros?page=1'
+## GET 'https://superherosapi.herokuapp.com/superheros?page=1'
 - Fetches  a dictionary of 10 superheros
 - Request Arguments: page
 - Returns: a success value and a list of 10 superheros 
@@ -196,7 +197,7 @@ python app.py
                 "relatives": "Marlo Chandler-Jones (wife); Polly (aunt); Mrs. Chandler (mother-in-law); Keith Chandler, Ray Chandler, three unidentified others (brothers-in-law); unidentified father (deceased); Jackie Shorr (alleged mother; unconfirmed)"
             }
 ```
-## GET '/dc-comics?page=1'
+## GET 'https://superherosapi.herokuapp.com/dc-comics?page=1'
 - Fetches  a dictionary of 10 superheros from Marvel Comics
 - Request Arguments: page
 - Returns: a success value and a list of 10 superheros from Marvel Comics
