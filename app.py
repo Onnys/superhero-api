@@ -5,14 +5,25 @@ import json
 from flask_migrate import Migrate
 
 
-HERO_PER_PAGE = 10
+HEROS_PER_PAGE = 10
+
+def paginate_dc(request):
+    page = request.args.get('page', 1, type=int)
+    try:
+        selection_of_heros_dc = superheros.query.filter(
+            superheros.publisher == 'Marvel Comics').paginate(page, per_page=HEROS_PER_PAGE)
+    except:
+        abort(404)
+    superheros_dc = [hero.format()
+                 for hero in selection_of_heros_dc.items]
+    return superheros_dc
 
 
 def paginate_heros(request):
     page = request.args.get('page', 1, type=int)
     try:
         selection_of_heros = superheros.query.order_by(
-            superheros.id).paginate(page, per_page=HERO_PER_PAGE)
+            superheros.id).paginate(page, per_page=HEROS_PER_PAGE)
     except:
         abort(404)
     superhero = [hero.format()
@@ -38,14 +49,23 @@ def create_app(test_config=None):
         return 'Welcome'
 
     @app.route('/superheros', methods=['GET'])
-    def superhero_api():
+    def get_superhero():
         superhero = paginate_heros(request)
         return jsonify({
             'success': True,
             'superhero':superhero,
         })
 
-   
+    @app.route('/dc-comics', methods=['GET'])
+    def getdec_comics():
+        superhero_from_dc = paginate_dc(request)
+        return jsonify({
+            'success': True,
+            'superhero':superhero_from_dc,
+        })
+
+
+
     @app.route('/add-superhero', methods=['POST'])
     def add_superhero():
         #superheros.query.delete()
@@ -99,10 +119,10 @@ def create_app(test_config=None):
                         aliases = new_aliases, placeOfBirth = new_placeOfBirth, firstAppearance = new_firstAppearance, publisher = new_publisher,
                         alignment = new_alignment, occupation = new_occupation, base = new_base, groupAffiliation = new_groupAffiliation,
                         relatives = new_relatives, xs = new_xs, sm = new_sm, md = new_md, lg= new_lg)
-                superhero.insert()   
+                superhero.insert()
             except:
                 abort(400)
-        
+
         return jsonify({
             'id':superhero.id,
             'success': True
@@ -115,7 +135,7 @@ def create_app(test_config=None):
             'error': 400,
             'message': 'bad request'
         }), 400
-    
+
     @app.errorhandler(404)
     def not_found(error):
         return jsonify({
