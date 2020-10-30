@@ -44,7 +44,7 @@ python app.py
 - /superheros?page=1
 - /dc-comics
 
-POST 'add-superhero'
+## POST 'add-superhero'
 - Create a new Superhero.
 - Resquet Arguments: name, slug, intelligence, strength, speed, durability, power, combat, gender, race, height, weight, eyeColor, hairColor, fullName, alterEgos, aliases, placeOfBirth, firstAppearance, publisher, alignment, occupation, base, groupAffiliation, relatives, xs, sm, md, lg.
 - Returns:  success and a superhero id.
@@ -104,7 +104,7 @@ POST 'add-superhero'
   
 ```
 
-GET '/superheros?page=1'
+## GET '/superheros?page=1'
 - Fetches  a dictionary of 10 superheros
 - Request Arguments: page
 - Returns: a success value and a list of 10 superheros 
@@ -196,7 +196,7 @@ GET '/superheros?page=1'
                 "relatives": "Marlo Chandler-Jones (wife); Polly (aunt); Mrs. Chandler (mother-in-law); Keith Chandler, Ray Chandler, three unidentified others (brothers-in-law); unidentified father (deceased); Jackie Shorr (alleged mother; unconfirmed)"
             }
 ```
-GET '/dc-comics?page=1'
+## GET '/dc-comics?page=1'
 - Fetches  a dictionary of 10 superheros from Marvel Comics
 - Request Arguments: page
 - Returns: a success value and a list of 10 superheros from Marvel Comics
