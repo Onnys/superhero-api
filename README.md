@@ -197,10 +197,10 @@ python app.py
                 "relatives": "Marlo Chandler-Jones (wife); Polly (aunt); Mrs. Chandler (mother-in-law); Keith Chandler, Ray Chandler, three unidentified others (brothers-in-law); unidentified father (deceased); Jackie Shorr (alleged mother; unconfirmed)"
             }
 ```
-## GET 'https://superherosapi.herokuapp.com/dc-comics?page=1'
-- Fetches  a dictionary of 10 superheros from Marvel Comics
+## GET 'https://superherosapi.herokuapp.com/dc-characters?page=1'
+- Fetches  a dictionary of 10 superheros from DC Comics
 - Request Arguments: page
-- Returns: a success value and a list of 10 superheros from Marvel Comics
+- Returns: a success value and a list of 10 superheros from DC Comics
 
 ```bash
 {

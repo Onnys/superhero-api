@@ -11,7 +11,7 @@ def paginate_dc(request):
     page = request.args.get('page', 1, type=int)
     try:
         selection_of_heros_dc = superheros.query.filter(
-            superheros.publisher == 'Marvel Comics').paginate(page, per_page=HEROS_PER_PAGE)
+            superheros.publisher == 'DC Comics').paginate(page, per_page=HEROS_PER_PAGE)
     except:
         abort(404)
     superheros_dc = [hero.format()
@@ -56,7 +56,7 @@ def create_app(test_config=None):
             'superhero':superhero,
         })
 
-    @app.route('/dc-comics', methods=['GET'])
+    @app.route('/dc-characters', methods=['GET'])
     def getdec_comics():
         superhero_from_dc = paginate_dc(request)
         return jsonify({
