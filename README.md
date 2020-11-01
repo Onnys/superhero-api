@@ -208,14 +208,14 @@ python app.py
     "superhero": [
         {
             "appearance": {
-                "eyeColor": "Green",
+                "eyeColor": "Blue",
                 "gender": "Male",
                 "hairColor": "No Hair",
                 "height": [
-                    "5'11",
-                    "180 cm"
+                    "6'1",
+                    "185 cm"
                 ],
-                "race": null,
+                "race": "Ungaran",
                 "weight": [
                     "200 lb",
                     "90 kg"
@@ -223,40 +223,39 @@ python app.py
             },
             "biography": {
                 "aliases": [
-                    "The Living Death That Walks",
-                    "Lord of the Negative Zone"
+                    "Lagzia"
                 ],
-                "alignment": "bad",
+                "alignment": "good",
                 "alterEgos": "No alter egos found.",
-                "firstAppearance": "Fantastic Four Annual #6 (1968)",
-                "fullName": "Annihilus",
-                "placeOfBirth": "Planet of Arthros, Sector 17A, Negative Zone",
-                "publisher": "Marvel Comics"
+                "firstAppearance": "Showcase #22 (October, 1959)",
+                "fullName": "",
+                "placeOfBirth": "Ungara",
+                "publisher": "DC Comics"
             },
             "connections": {
-                "groupAffiliation": "Sometime ally of Blastaar",
-                "relatives": "Annihilus is a series of clonal scions"
+                "groupAffiliation": "Green Lantern Corps, Black Lantern Corps",
+                "relatives": "Amon Sur (son), Arin Sur (sister), Thaal Sinestro (brother-in-law), Soranik Natu (niece)"
             },
-            "id": 23,
+            "id": 3,
             "images": {
-                "lg": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/lg/29-annihilus.jpg",
-                "md": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/md/29-annihilus.jpg",
-                "sm": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/sm/29-annihilus.jpg",
-                "xs": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/xs/29-annihilus.jpg"
+                "lg": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/lg/3-abin-sur.jpg",
+                "md": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/md/3-abin-sur.jpg",
+                "sm": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/sm/3-abin-sur.jpg",
+                "xs": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/xs/3-abin-sur.jpg"
             },
-            "name": "Annihilus",
+            "name": "Abin Sur",
             "powerstats": {
-                "combat": 64,
-                "durability": 56,
-                "intelligence": 75,
-                "power": 59,
-                "speed": 47,
-                "strength": 80
+                "combat": 65,
+                "durability": 64,
+                "intelligence": 50,
+                "power": 99,
+                "speed": 53,
+                "strength": 90
             },
-            "slug": "29-annihilus",
+            "slug": "3-abin-sur",
             "work": {
-                "base": "-",
-                "occupation": "Conqueror, scavenger"
+                "base": "Oa",
+                "occupation": "Green Lantern, former history professor"
             }
         },
         {
@@ -265,484 +264,478 @@ python app.py
                 "gender": "Male",
                 "hairColor": "Blond",
                 "height": [
-                    "6'0",
-                    "183 cm"
+                    "6'1",
+                    "185 cm"
                 ],
                 "race": "Human",
                 "weight": [
-                    "190 lb",
-                    "86 kg"
+                    "195 lb",
+                    "88 kg"
                 ]
             },
             "biography": {
                 "aliases": [
-                    "Myrmidon",
-                    "Scott Edward Harris Lang"
+                    "Warrior of Two Worlds",
+                    "Savior of Rann"
                 ],
                 "alignment": "good",
                 "alterEgos": "No alter egos found.",
-                "firstAppearance": "Avengers Vol 1 #181 (March, 1979)",
-                "fullName": "Scott Lang",
-                "placeOfBirth": "Coral Gables, Florida",
-                "publisher": "Marvel Comics"
+                "firstAppearance": "Outsiders #6 (April, 1986)",
+                "fullName": "Adam Strange",
+                "placeOfBirth": "Chicago, Illinois",
+                "publisher": "DC Comics"
             },
             "connections": {
-                "groupAffiliation": "Ant-Man Security Solutions; formerly Future Foundation (leader), Fantastic Four (leader), Defenders, Avengers, Heroes For Hire, Stark Industries",
-                "relatives": "Cassandra Eleanor Lang (daughter), Ruth (sister), Carl (brother-in-law), Peggy Rae (ex-wife)"
+                "groupAffiliation": "Omega Men, L.E.G.I.O.N., R.E.B.E.L.S., formerly Seven Soldiers of Victory",
+                "relatives": "Alanna Strange (wife); Aleea Strange (daughter); Sardath (father-in-law); Janey Strange (sister); Todd Strange (brother, deceased); Bantteir (mother-in-law); Adam Strange II (descendent)"
             },
-            "id": 25,
+            "id": 8,
             "images": {
-                "lg": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/lg/31-ant-man-ii.jpg",
-                "md": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/md/31-ant-man-ii.jpg",
-                "sm": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/sm/31-ant-man-ii.jpg",
-                "xs": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/xs/31-ant-man-ii.jpg"
+                "lg": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/lg/8-adam-strange.jpg",
+                "md": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/md/8-adam-strange.jpg",
+                "sm": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/sm/8-adam-strange.jpg",
+                "xs": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/xs/8-adam-strange.jpg"
             },
-            "name": "Ant-Man II",
+            "name": "Adam Strange",
             "powerstats": {
-                "combat": 30,
+                "combat": 50,
                 "durability": 40,
-                "intelligence": 75,
-                "power": 53,
-                "speed": 17,
-                "strength": 18
+                "intelligence": 69,
+                "power": 37,
+                "speed": 33,
+                "strength": 10
             },
-            "slug": "31-ant-man-ii",
+            "slug": "8-adam-strange",
             "work": {
-                "base": "South Beach, Miami, Florida; formerly Farmingdale, Long Island, New York",
-                "occupation": "Electronics Technician,"
+                "base": "Rann, Alpha Centauri System",
+                "occupation": "Adventurer, archaelogist, ambassador"
+            }
+        },
+        {
+            "appearance": {
+                "eyeColor": "Blue",
+                "gender": "Male",
+                "hairColor": "Blond",
+                "height": [
+                    "5'11",
+                    "180 cm"
+                ],
+                "race": null,
+                "weight": [
+                    "201 lb",
+                    "90 kg"
+                ]
+            },
+            "biography": {
+                "aliases": [
+                    "Green Lantern",
+                    "White King",
+                    "Sentinal"
+                ],
+                "alignment": "good",
+                "alterEgos": "No alter egos found.",
+                "firstAppearance": "All-American Comics 16 (1940)",
+                "fullName": "Alan Ladd Wellington Scott",
+                "placeOfBirth": "Gotham City",
+                "publisher": "DC Comics"
+            },
+            "connections": {
+                "groupAffiliation": "Justice Society of America; Formerly Checkmate; the Sentinels of Magic; Formerly All-Star Squadron",
+                "relatives": "Harlequin (Molly Mayne-Scott) (wife), Thorn (Rose Canton) (first wife, deceased), Todd Rice (Obsidian, son), Jennie-Lynn Hayden (Jade, daughter, deceased)"
+            },
+            "id": 13,
+            "images": {
+                "lg": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/lg/14-alan-scott.jpg",
+                "md": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/md/14-alan-scott.jpg",
+                "sm": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/sm/14-alan-scott.jpg",
+                "xs": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/xs/14-alan-scott.jpg"
+            },
+            "name": "Alan Scott",
+            "powerstats": {
+                "combat": 32,
+                "durability": 90,
+                "intelligence": 63,
+                "power": 100,
+                "speed": 23,
+                "strength": 80
+            },
+            "slug": "14-alan-scott",
+            "work": {
+                "base": "Gotham City and New York City; Formerly Capitol City",
+                "occupation": "-"
+            }
+        },
+        {
+            "appearance": {
+                "eyeColor": "Blue",
+                "gender": "Male",
+                "hairColor": "Black",
+                "height": [
+                    "5'10",
+                    "178 cm"
+                ],
+                "race": "Human",
+                "weight": [
+                    "160 lb",
+                    "72 kg"
+                ]
+            },
+            "biography": {
+                "aliases": [
+                    "Alfred Beagle"
+                ],
+                "alignment": "good",
+                "alterEgos": "No alter egos found.",
+                "firstAppearance": "Batman #16 (April, 1943)",
+                "fullName": "Alfred Thaddeus Crane Pennyworth",
+                "placeOfBirth": "-",
+                "publisher": "DC Comics"
+            },
+            "connections": {
+                "groupAffiliation": "Batman Family, Outsiders",
+                "relatives": "Jarvis Pennyworth (father, deceased), Wilfred Pennyworth (older brother), Daphne Pennyworth (niece); Bruce Wayne (Batman, legal ward)"
+            },
+            "id": 15,
+            "images": {
+                "lg": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/lg/17-alfred-pennyworth.jpg",
+                "md": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/md/17-alfred-pennyworth.jpg",
+                "sm": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/sm/17-alfred-pennyworth.jpg",
+                "xs": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/xs/17-alfred-pennyworth.jpg"
+            },
+            "name": "Alfred Pennyworth",
+            "powerstats": {
+                "combat": 55,
+                "durability": 10,
+                "intelligence": 63,
+                "power": 7,
+                "speed": 17,
+                "strength": 10
+            },
+            "slug": "17-alfred-pennyworth",
+            "work": {
+                "base": "Wayne Manor; Batcave; Gotham City",
+                "occupation": "Butler; Caretaker, former Actor; Field Medic; Government Agent"
             }
         },
         {
             "appearance": {
                 "eyeColor": "Red",
                 "gender": "Male",
-                "hairColor": "Black",
+                "hairColor": "-",
                 "height": [
-                    "7'0",
-                    "213 cm"
+                    "8'5",
+                    "257 cm"
                 ],
-                "race": "Mutant",
+                "race": "Android",
                 "weight": [
-                    "300 lb",
-                    "135 kg"
+                    "385 lb",
+                    "173 kg"
                 ]
             },
             "biography": {
                 "aliases": [
-                    "The Eternal One",
-                    "the High Lord",
-                    "Set",
-                    "Huitxilopochti",
-                    "Sauru",
-                    "Kali-Ma"
+                    "Professor Ivos Amazing Android",
+                    "Timazo",
+                    "Humazo",
+                    "Hourmazo"
                 ],
                 "alignment": "bad",
                 "alterEgos": "No alter egos found.",
-                "firstAppearance": "X-Factor #5 (June, 1986)",
-                "fullName": "En Sabah Nur",
-                "placeOfBirth": "Akkaba, Egypt",
-                "publisher": "Marvel Comics"
+                "firstAppearance": "Brave and the Bold #30 (July, 1960)",
+                "fullName": "",
+                "placeOfBirth": "-",
+                "publisher": "DC Comics"
             },
             "connections": {
-                "groupAffiliation": "Clan Akkaba, employer of Apocalypse's Horsemen, Dark Riders, former employer of the Alliance of Evil, 198",
-                "relatives": "Baal of the Crimson Sands (adopted father, deceased)"
+                "groupAffiliation": "Formerly the Secret Society of Super Villains",
+                "relatives": "Professor Ivo (creator), Kid Amazo (cyborg offspring)"
             },
-            "id": 28,
+            "id": 17,
             "images": {
-                "lg": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/lg/35-apocalypse.jpg",
-                "md": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/md/35-apocalypse.jpg",
-                "sm": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/sm/35-apocalypse.jpg",
-                "xs": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/xs/35-apocalypse.jpg"
+                "lg": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/lg/20-amazo.jpg",
+                "md": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/md/20-amazo.jpg",
+                "sm": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/sm/20-amazo.jpg",
+                "xs": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/xs/20-amazo.jpg"
             },
-            "name": "Apocalypse",
+            "name": "Amazo",
             "powerstats": {
-                "combat": 60,
+                "combat": 100,
                 "durability": 100,
-                "intelligence": 100,
+                "intelligence": 63,
                 "power": 100,
-                "speed": 33,
+                "speed": 83,
                 "strength": 100
             },
-            "slug": "35-apocalypse",
+            "slug": "20-amazo",
             "work": {
-                "base": "Celestial Ship, mobile",
-                "occupation": "Student; formerly Conqueror; Scientist"
+                "base": "-",
+                "occupation": "-"
             }
         },
         {
             "appearance": {
                 "eyeColor": "Blue",
-                "gender": "Female",
+                "gender": "Male",
                 "hairColor": "Blond",
                 "height": [
-                    "5'9",
-                    "175 cm"
+                    "6'0",
+                    "183 cm"
                 ],
                 "race": "Human",
                 "weight": [
-                    "140 lb",
-                    "63 kg"
+                    "185 lb",
+                    "83 kg"
                 ]
             },
             "biography": {
                 "aliases": [
-                    "Spider-Woman",
-                    "Madame Web"
+                    "The Human Zoo; A-Man; The Man with Animal Powers"
                 ],
                 "alignment": "good",
                 "alterEgos": "No alter egos found.",
-                "firstAppearance": "Marvel Super Heroes Secret Wars #6",
-                "fullName": "Julia Carpenter",
-                "placeOfBirth": "Los Angeles, California",
-                "publisher": "Marvel Comics"
+                "firstAppearance": "Strange Adventures #180 (September, 1965)",
+                "fullName": "Bernhard Baker",
+                "placeOfBirth": "-",
+                "publisher": "DC Comics"
             },
             "connections": {
-                "groupAffiliation": "Omega Flight, formerly Commission on Superhuman Activities , Freedom Force , Avengers , Secret Defenders , Force Works , Queen?s Vengeance , West Coast Avengers, Secret Avengers (Civil War)",
-                "relatives": "Rachel Carpenter (daughter), Walter Cornwall (father), Elizabeth Cornwall (mother), Larry Carpenter (ex-husband, deceased)"
+                "groupAffiliation": "Formerly Animal Masters, Forgotten Heroes, Justice League of America, Justice League Europe",
+                "relatives": "Ellen Frazier (wife), Cliff Baker (son), Maxine Baker (daughter), unnamed second daughter, Frank Baker, Jr. (father), Phyllis Baker (mother), unnamed sister, Frank, Sr (grandfather), Teddy (great grandfather), Sherman (great-great grandfather), Jack (great-great-great grandfather), Mary Frazier (mother-in-law), Dudley (uncle-in-law), Annie Cassidy (mother of second daughter), Lucy Cassidy (half-sister of second daughter)"
             },
-            "id": 32,
+            "id": 22,
             "images": {
-                "lg": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/lg/39-arachne.jpg",
-                "md": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/md/39-arachne.jpg",
-                "sm": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/sm/39-arachne.jpg",
-                "xs": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/xs/39-arachne.jpg"
+                "lg": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/lg/28-animal-man.jpg",
+                "md": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/md/28-animal-man.jpg",
+                "sm": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/sm/28-animal-man.jpg",
+                "xs": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/xs/28-animal-man.jpg"
             },
-            "name": "Arachne",
+            "name": "Animal Man",
             "powerstats": {
-                "combat": 70,
-                "durability": 70,
-                "intelligence": 50,
-                "power": 71,
-                "speed": 50,
+                "combat": 80,
+                "durability": 85,
+                "intelligence": 56,
+                "power": 73,
+                "speed": 47,
                 "strength": 48
             },
-            "slug": "39-arachne",
+            "slug": "28-animal-man",
             "work": {
-                "base": "Mobile; formerly Denver, Colorado; formerly Avengers Compound, Los Angeles, California",
-                "occupation": "Adventurer, fugitive, former government agent"
-            }
-        },
-        {
-            "appearance": {
-                "eyeColor": "White",
-                "gender": "Female",
-                "hairColor": "Orange",
-                "height": [
-                    "6'4",
-                    "193 cm"
-                ],
-                "race": "Alien",
-                "weight": [
-                    "218 lb",
-                    "98 kg"
-                ]
-            },
-            "biography": {
-                "aliases": [
-                    "-"
-                ],
-                "alignment": "good",
-                "alterEgos": "No alter egos found.",
-                "firstAppearance": "The Order #4",
-                "fullName": "Ardina",
-                "placeOfBirth": "-",
-                "publisher": "Marvel Comics"
-            },
-            "connections": {
-                "groupAffiliation": "-",
-                "relatives": "Norrin Radd (Silver Surfer, clonal source), Clea (creator)"
-            },
-            "id": 35,
-            "images": {
-                "lg": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/lg/42-ardina.jpg",
-                "md": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/md/42-ardina.jpg",
-                "sm": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/sm/42-ardina.jpg",
-                "xs": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/xs/42-ardina.jpg"
-            },
-            "name": "Ardina",
-            "powerstats": {
-                "combat": 25,
-                "durability": 80,
-                "intelligence": 63,
-                "power": 100,
-                "speed": 100,
-                "strength": 100
-            },
-            "slug": "42-ardina",
-            "work": {
-                "base": "-",
+                "base": "San Diego, California",
                 "occupation": "-"
-            }
-        },
-        {
-            "appearance": {
-                "eyeColor": "Brown",
-                "gender": "Male",
-                "hairColor": "Brown",
-                "height": [
-                    "6'1",
-                    "185 cm"
-                ],
-                "race": null,
-                "weight": [
-                    "600 lb",
-                    "270 kg"
-                ]
-            },
-            "biography": {
-                "aliases": [
-                    "God of War",
-                    "Mister Talon",
-                    "Mars",
-                    "Warhawk"
-                ],
-                "alignment": "good",
-                "alterEgos": "No alter egos found.",
-                "firstAppearance": "Thor #129",
-                "fullName": "",
-                "placeOfBirth": "-",
-                "publisher": "Marvel Comics"
-            },
-            "connections": {
-                "groupAffiliation": "Avengers, Mighty Avengers, Olympic Pantheon; Warhawks",
-                "relatives": "Zeus (father), Hera (mother), Enyo (wife), Deimos, Phobos, Alexander (sons), Neptune, Pluto (uncles), Demeter, Hestia (aunts), Hephaestus (brother), Apollo, Dionysus, Hercules, Hermes(half-brothers), Artemis, Pallas Athena, Venus, (half-sisters)"
-            },
-            "id": 36,
-            "images": {
-                "lg": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/lg/43-ares.jpg",
-                "md": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/md/43-ares.jpg",
-                "sm": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/sm/43-ares.jpg",
-                "xs": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/xs/43-ares.jpg"
-            },
-            "name": "Ares",
-            "powerstats": {
-                "combat": 101,
-                "durability": 80,
-                "intelligence": 75,
-                "power": 84,
-                "speed": 35,
-                "strength": 82
-            },
-            "slug": "43-ares",
-            "work": {
-                "base": "Avengers Tower, formerly Olympus",
-                "occupation": "-"
-            }
-        },
-        {
-            "appearance": {
-                "eyeColor": "Purple",
-                "gender": "Female",
-                "hairColor": "Pink",
-                "height": [
-                    "5'5",
-                    "165 cm"
-                ],
-                "race": null,
-                "weight": [
-                    "130 lb",
-                    "59 kg"
-                ]
-            },
-            "biography": {
-                "aliases": [
-                    "-"
-                ],
-                "alignment": "good",
-                "alterEgos": "No alter egos found.",
-                "firstAppearance": "Fallen Angels #1 (1987)",
-                "fullName": "Ariel",
-                "placeOfBirth": "-",
-                "publisher": "Marvel Comics"
-            },
-            "connections": {
-                "groupAffiliation": "X-Men, Formerly Fallen Angels",
-                "relatives": "-"
-            },
-            "id": 37,
-            "images": {
-                "lg": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/lg/44-ariel.jpg",
-                "md": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/md/44-ariel.jpg",
-                "sm": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/sm/44-ariel.jpg",
-                "xs": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/xs/44-ariel.jpg"
-            },
-            "name": "Ariel",
-            "powerstats": {
-                "combat": 28,
-                "durability": 14,
-                "intelligence": 50,
-                "power": 94,
-                "speed": 12,
-                "strength": 10
-            },
-            "slug": "44-ariel",
-            "work": {
-                "base": "-",
-                "occupation": "Leader, refugee alien; former alien mutant-hunter and hedonist"
-            }
-        },
-        {
-            "appearance": {
-                "eyeColor": "Black",
-                "gender": "Female",
-                "hairColor": "Black",
-                "height": [
-                    "5'4",
-                    "163 cm"
-                ],
-                "race": null,
-                "weight": [
-                    "112 lb",
-                    "50 kg"
-                ]
-            },
-            "biography": {
-                "aliases": [
-                    "X-Girl",
-                    "Kid"
-                ],
-                "alignment": "good",
-                "alterEgos": "No alter egos found.",
-                "firstAppearance": "Astonishing X-Men #4 (2004)",
-                "fullName": "Hisako Ichiki",
-                "placeOfBirth": "-",
-                "publisher": "Marvel Comics"
-            },
-            "connections": {
-                "groupAffiliation": "X-Men, formerly: Xavier Institute Student Body, New X-Men",
-                "relatives": "-"
-            },
-            "id": 38,
-            "images": {
-                "lg": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/lg/45-armor.jpg",
-                "md": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/md/45-armor.jpg",
-                "sm": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/sm/45-armor.jpg",
-                "xs": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/xs/45-armor.jpg"
-            },
-            "name": "Armor",
-            "powerstats": {
-                "combat": 54,
-                "durability": 80,
-                "intelligence": 50,
-                "power": 55,
-                "speed": 12,
-                "strength": 63
-            },
-            "slug": "45-armor",
-            "work": {
-                "base": "-",
-                "occupation": "Adventurer, student"
-            }
-        },
-        {
-            "appearance": {
-                "eyeColor": "Blue",
-                "gender": "Female",
-                "hairColor": "Black",
-                "height": [
-                    "5'11",
-                    "180 cm"
-                ],
-                "race": "Mutant",
-                "weight": [
-                    "140 lb",
-                    "63 kg"
-                ]
-            },
-            "biography": {
-                "aliases": [
-                    "Sister Beaubier"
-                ],
-                "alignment": "good",
-                "alterEgos": "No alter egos found.",
-                "firstAppearance": "X-Men #121 (1979)",
-                "fullName": "Jeanne-Marie Beaubier",
-                "placeOfBirth": "Montreal, Quebec, Canada",
-                "publisher": "Marvel Comics"
-            },
-            "connections": {
-                "groupAffiliation": "Alpha Flight, Alpha Flight (Space Program), Royal Canadian Mounted Police; formerly Weapon X, ally of the Havok's Brotherhood, Headbangers , Children of the Vault, X-Men (interim member)",
-                "relatives": "Jean-Baptiste Beaubier (father, deceased), unidentified mother (deceased), Jean-Paul Beaubier (Northstar, twin brother) Joanna Beaubier (adopted niece, deceased); Lois and Genevieve Martin (first cousins once removed/adopted parents, deceased)"
-            },
-            "id": 43,
-            "images": {
-                "lg": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/lg/56-aurora.jpg",
-                "md": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/md/56-aurora.jpg",
-                "sm": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/sm/56-aurora.jpg",
-                "xs": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/xs/56-aurora.jpg"
-            },
-            "name": "Aurora",
-            "powerstats": {
-                "combat": 56,
-                "durability": 60,
-                "intelligence": 63,
-                "power": 74,
-                "speed": 96,
-                "strength": 10
-            },
-            "slug": "56-aurora",
-            "work": {
-                "base": "Laval, Quebec, Canada",
-                "occupation": "Adventurer; former terrorist, nun, history/geography teacher"
             }
         },
         {
             "appearance": {
                 "eyeColor": "Yellow",
                 "gender": "Male",
-                "hairColor": "Black",
+                "hairColor": "No Hair",
                 "height": [
-                    "6'0",
-                    "183 cm"
+                    "200",
+                    "61.0 meters"
                 ],
-                "race": "Neyaphem",
+                "race": "God / Eternal",
                 "weight": [
-                    "149 lb",
-                    "67 kg"
+                    "- lb",
+                    "0 kg"
                 ]
             },
             "biography": {
                 "aliases": [
-                    "Semihazah",
-                    "Duma",
-                    "Keriel",
-                    "Mastema",
-                    "Beliar",
-                    "Gadreel",
-                    "Beelzebub",
-                    "Satan"
+                    "Monitor",
+                    "Mobius"
                 ],
                 "alignment": "bad",
                 "alterEgos": "No alter egos found.",
-                "firstAppearance": "Uncanny X-Men #428 (2003)",
+                "firstAppearance": "Crisis on Infinite Earths #4",
                 "fullName": "",
-                "placeOfBirth": "Isla des Demonas, Caribbean Sea",
-                "publisher": "Marvel Comics"
+                "placeOfBirth": "Moon of Qward",
+                "publisher": "DC Comics"
             },
             "connections": {
-                "groupAffiliation": "-",
-                "relatives": "Kurt Wagner (Nightcrawler, son), Nils Styger (Abyss, son), Kiwi Black (son), numberous other offspring (deceased)"
+                "groupAffiliation": "Sinestro Corps, Weaponers of Qward, Thunderers of Qward, Shadow Demons",
+                "relatives": "Monitor (\"brother\"), The Monitors"
             },
-            "id": 44,
+            "id": 26,
             "images": {
-                "lg": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/lg/57-azazel.jpg",
-                "md": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/md/57-azazel.jpg",
-                "sm": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/sm/57-azazel.jpg",
-                "xs": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/xs/57-azazel.jpg"
+                "lg": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/lg/32-anti-monitor.jpg",
+                "md": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/md/32-anti-monitor.jpg",
+                "sm": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/sm/32-anti-monitor.jpg",
+                "xs": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/xs/32-anti-monitor.jpg"
             },
-            "name": "Azazel",
+            "name": "Anti-Monitor",
+            "powerstats": {
+                "combat": 90,
+                "durability": 100,
+                "intelligence": 88,
+                "power": 100,
+                "speed": 50,
+                "strength": 100
+            },
+            "slug": "32-anti-monitor",
+            "work": {
+                "base": "Qward, Antimatter Universe",
+                "occupation": "-"
+            }
+        },
+        {
+            "appearance": {
+                "eyeColor": "Blue",
+                "gender": "Male",
+                "hairColor": "Blond",
+                "height": [
+                    "-",
+                    "0 cm"
+                ],
+                "race": null,
+                "weight": [
+                    "- lb",
+                    "0 kg"
+                ]
+            },
+            "biography": {
+                "aliases": [
+                    "-"
+                ],
+                "alignment": "good",
+                "alterEgos": "No alter egos found.",
+                "firstAppearance": "Aquaman #23 (October, 1965)",
+                "fullName": "Arthur Curry, Jr.",
+                "placeOfBirth": "-",
+                "publisher": "DC Comics"
+            },
+            "connections": {
+                "groupAffiliation": "Aquaman Family",
+                "relatives": "Aquaman (Orin/Arthur Curry) (father); Mera (mother); Koryak (half-brother); A.J. (half-brother); Atlan (grandfather); Tom Curry (adoptive grandfather, deceased); Orm Marius (uncle); Kordax (ancestor, deceased); Arthur Joseph Curry (adoptive cousin)"
+            },
+            "id": 29,
+            "images": {
+                "lg": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/lg/36-aquababy.jpg",
+                "md": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/md/36-aquababy.jpg",
+                "sm": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/sm/36-aquababy.jpg",
+                "xs": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/xs/36-aquababy.jpg"
+            },
+            "name": "Aquababy",
+            "powerstats": {
+                "combat": 14,
+                "durability": 14,
+                "intelligence": 10,
+                "power": 37,
+                "speed": 12,
+                "strength": 16
+            },
+            "slug": "36-aquababy",
+            "work": {
+                "base": "Atlantis",
+                "occupation": "-"
+            }
+        },
+        {
+            "appearance": {
+                "eyeColor": "Blue",
+                "gender": "Male",
+                "hairColor": "Black",
+                "height": [
+                    "5'10",
+                    "178 cm"
+                ],
+                "race": "Atlantean",
+                "weight": [
+                    "235 lb",
+                    "106 kg"
+                ]
+            },
+            "biography": {
+                "aliases": [
+                    "-"
+                ],
+                "alignment": "good",
+                "alterEgos": "No alter egos found.",
+                "firstAppearance": "Adventure Comics #269 (February, 1960)",
+                "fullName": "Garth",
+                "placeOfBirth": "Poseidonis, Atlantis",
+                "publisher": "DC Comics"
+            },
+            "connections": {
+                "groupAffiliation": "Aquaman Family; formerly Black Lantern Corps, Sentinels of Magic, Teen Titans",
+                "relatives": "Cerdian (son), Dolphin (wife), Berra (mother), Thar (father), Slizzath (uncle) Donna (grand-daughter)"
+            },
+            "id": 30,
+            "images": {
+                "lg": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/lg/37-aqualad.jpg",
+                "md": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/md/37-aqualad.jpg",
+                "sm": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/sm/37-aqualad.jpg",
+                "xs": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/xs/37-aqualad.jpg"
+            },
+            "name": "Aqualad",
+            "powerstats": {
+                "combat": 60,
+                "durability": 75,
+                "intelligence": 63,
+                "power": 89,
+                "speed": 42,
+                "strength": 44
+            },
+            "slug": "37-aqualad",
+            "work": {
+                "base": "Atlantis",
+                "occupation": "Adventurer; Magician, former Sidekick"
+            }
+        },
+        {
+            "appearance": {
+                "eyeColor": "Blue",
+                "gender": "Male",
+                "hairColor": "Blond",
+                "height": [
+                    "6'1",
+                    "185 cm"
+                ],
+                "race": "Atlantean",
+                "weight": [
+                    "325 lb",
+                    "146 kg"
+                ]
+            },
+            "biography": {
+                "aliases": [
+                    "Dweller in the Depths",
+                    "Swimmer",
+                    "Waterbearer",
+                    "Mental Man",
+                    "Aquaboy",
+                    "Water Wraith"
+                ],
+                "alignment": "good",
+                "alterEgos": "No alter egos found.",
+                "firstAppearance": "More Fun Comics #73 (November, 1941)",
+                "fullName": "Orin",
+                "placeOfBirth": "Atlantis",
+                "publisher": "DC Comics"
+            },
+            "connections": {
+                "groupAffiliation": "Justice League, Aquaman Family, Atlantean Royal Family; formerly Black Lantern Corps, Justice League International, Justice League Detroit, U.N.",
+                "relatives": "Koryak (son), Arthur Curry, Jr. (son), A.J. (son), Orm Marius (half-brother), Debbie Perkins (half-sister), Drin (adopted brother), Atlanna (mother), Atlan (father), Atlena (aunt), Porm (adopted mother), Tom Curry (adopted father), Mera (wife), Hila (sister-in-law), Haumond (uncle), Kraken (uncle), Honsu (grandfather), Lorelei (grandmother), Manu (ancestor), Nala (ancestor), Fatima (ancestor), Kalunga (ancestor), Gana (ancestor), Fiona (ancestor), Regin (ancestor), Kordax (ancestor), Bazil (ancestor), Cora (ancestor), Illya (ancestor), Dardanus (ancestor), Alloroc (ancestor), Cole (ancestor), Narmea (ancestor), Orin (ancestor), Loma (ancestor), Shalako (ancestor), Thorvall (ancestor)"
+            },
+            "id": 31,
+            "images": {
+                "lg": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/lg/38-aquaman.jpg",
+                "md": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/md/38-aquaman.jpg",
+                "sm": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/sm/38-aquaman.jpg",
+                "xs": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/xs/38-aquaman.jpg"
+            },
+            "name": "Aquaman",
             "powerstats": {
                 "combat": 80,
-                "durability": 95,
-                "intelligence": 50,
+                "durability": 80,
+                "intelligence": 81,
                 "power": 100,
-                "speed": 47,
-                "strength": 11
+                "speed": 79,
+                "strength": 85
             },
-            "slug": "57-azazel",
+            "slug": "38-aquaman",
             "work": {
-                "base": "Brimstone Dimension; formerly La Isla des Demonas, Bermuda",
-                "occupation": "Leader of the Neyaphem"
+                "base": "Atlantean Royal Palace; Poseidonis, Atlantis",
+                "occupation": "Protector of the Seas and Oceans, King of Poseidonis"
             }
         }
     ]
