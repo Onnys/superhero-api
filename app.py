@@ -6,6 +6,11 @@ from flask_migrate import Migrate
 
 
 HEROS_PER_PAGE = 10
+def error():
+    return jsonify({
+            'success': False,
+            'superhero':[],
+        })
 
 def paginate_dc(request):
     page = request.args.get('page', 1, type=int)
@@ -13,14 +18,11 @@ def paginate_dc(request):
         selection_of_heros_dc = superheros.query.filter(
             superheros.publisher == 'DC Comics').paginate(page, per_page=HEROS_PER_PAGE)
     except:
-        return {
-            'success': False,
-            'superhero':[],
-        }
-    finally:
-        superheros_dc = [hero.format()
+        error()
+    
+    superheros_dc = [hero.format()
                  for hero in selection_of_heros_dc.items]
-        return superheros_dc
+    return superheros_dc
 
 
 def paginate_heros(request):
@@ -29,15 +31,12 @@ def paginate_heros(request):
         selection_of_heros = superheros.query.order_by(
             superheros.id).paginate(page, per_page=HEROS_PER_PAGE)
     except:
-        {
-            'success': False,
-            'superhero':[],
-        }
-    finally:
-        superhero = [hero.format()
+       error()
+    
+    superhero = [hero.format()
                  for hero in selection_of_heros.items]
 
-        return superhero
+    return superhero
 
 def create_app(test_config=None):
     app = Flask(__name__)
@@ -71,8 +70,6 @@ def create_app(test_config=None):
             'success': True,
             'superhero':superhero_from_dc,
         })
-
-
 
     @app.route('/add-superhero', methods=['POST'])
     def add_superhero():
