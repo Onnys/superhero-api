@@ -17,10 +17,10 @@ def paginate_dc(request):
             'success': False,
             'superhero':[],
         })
-        
-    superheros_dc = [hero.format()
+    finally:
+        superheros_dc = [hero.format()
                  for hero in selection_of_heros_dc.items]
-    return superheros_dc
+        return superheros_dc
 
 
 def paginate_heros(request):
@@ -33,10 +33,11 @@ def paginate_heros(request):
             'success': False,
             'superhero':[],
         })
-    superhero = [hero.format()
+    finally:
+        superhero = [hero.format()
                  for hero in selection_of_heros.items]
 
-    return superhero
+        return superhero
 
 def create_app(test_config=None):
     app = Flask(__name__)
