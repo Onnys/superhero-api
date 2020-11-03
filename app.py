@@ -13,10 +13,10 @@ def paginate_dc(request):
         selection_of_heros_dc = superheros.query.filter(
             superheros.publisher == 'DC Comics').paginate(page, per_page=HEROS_PER_PAGE)
     except:
-        return jsonify({
+        return {
             'success': False,
             'superhero':[],
-        })
+        }
     finally:
         superheros_dc = [hero.format()
                  for hero in selection_of_heros_dc.items]
@@ -29,10 +29,10 @@ def paginate_heros(request):
         selection_of_heros = superheros.query.order_by(
             superheros.id).paginate(page, per_page=HEROS_PER_PAGE)
     except:
-        return jsonify({
+        {
             'success': False,
             'superhero':[],
-        })
+        }
     finally:
         superhero = [hero.format()
                  for hero in selection_of_heros.items]
