@@ -67,7 +67,7 @@ def create_app(test_config=None):
             publisher+'':formated_superhero
         })
 
-    @app.route('/superhero/<string:publisher>/<string:race>', methods=['GET'])
+    @app.route('/<string:publisher>/<string:race>', methods=['GET'])
     def get_race_by_publisher(publisher,race):
         
         try:
@@ -100,7 +100,7 @@ def create_app(test_config=None):
             'publisher':publisher,
             'superhero':formated_superhero
         })
-        
+
     @app.route('/superhero/<int:character_id>')
     def get_character(character_id):
         try:
