@@ -100,6 +100,7 @@ def create_app(test_config=None):
             'publisher':publisher,
             'superhero':formated_superhero
         })
+        
     @app.route('/superhero/<int:character_id>')
     def get_character(character_id):
         try:
@@ -129,7 +130,6 @@ def create_app(test_config=None):
 
     @app.route('/add-superhero', methods=['POST'])
     def add_superhero():
-        #superheros.query.delete()
         body_json = request.get_json()
         for body in body_json:
             new_name = body.get('name', None)
