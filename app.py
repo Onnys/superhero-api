@@ -6,11 +6,7 @@ from flask_migrate import Migrate
 
 
 HEROS_PER_PAGE = 10
-def error():
-    return jsonify({
-            'success': False,
-            'superhero':[],
-        })
+
 
 def paginate_dc(request):
     page = request.args.get('page', 1, type=int)
@@ -18,7 +14,7 @@ def paginate_dc(request):
         selection_of_heros_dc = superheros.query.filter(
             superheros.publisher == 'DC Comics').paginate(page, per_page=HEROS_PER_PAGE)
     except:
-        error()
+        abort(422)
     
     superheros_dc = [hero.format()
                  for hero in selection_of_heros_dc.items]
@@ -31,7 +27,7 @@ def paginate_heros(request):
         selection_of_heros = superheros.query.order_by(
             superheros.id).paginate(page, per_page=HEROS_PER_PAGE)
     except:
-       error()
+       abort(422)
     
     superhero = [hero.format()
                  for hero in selection_of_heros.items]
@@ -54,6 +50,66 @@ def create_app(test_config=None):
     @app.route('/')
     def hello():
         return 'Welcome'
+    
+    @app.route('/superheros/<string:publisher>', methods=['GET'])
+    def get_superheros_by_publisher(publisher):
+        try:
+            superhero = superheros.query.filter(
+            superheros.publisher.like('%'+publisher+'%')).all()    
+        except :
+            abort(404)
+
+        formated_superhero = [hero.format()
+                             for hero in superhero]
+        
+        return jsonify({
+            'success':True,
+            publisher+'':formated_superhero
+        })
+
+    @app.route('/superhero/<string:publisher>/<string:race>', methods=['GET'])
+    def get_race_by_publisher(publisher,race):
+        
+        try:
+            superhero = superheros.query.filter(superheros.publisher == publisher, superheros.race == race).all()
+           
+        except :
+            abort(404)
+        formated_superhero = [hero.format() 
+                             for hero in superhero]
+        
+        return jsonify({
+            'success':True,
+            'race':race,
+            'publisher':publisher,
+            'superhero':formated_superhero
+        })
+
+    @app.route('/superhero/<string:publisher>/<string:gender>')
+    def get_hero_by_gender_and_publisher(publisher,gender):
+        try:
+            superhero = superheros.query.filter(superheros.publisher == publisher, superheros.gender == gender).all()    
+        except :
+            abort(404)
+        formated_superhero = [hero.format() 
+                             for hero in superhero]
+        
+        return jsonify({
+            'success':True,
+            'gender':gender,
+            'publisher':publisher,
+            'superhero':formated_superhero
+        })
+    @app.route('/superhero/<int:character_id>')
+    def get_character(character_id):
+        try:
+            superhero = superheros.query.get(character_id)
+        except:
+            abort(404)
+        return jsonify({
+            'success': True,
+            'superhero': superhero.format()
+        })
 
     @app.route('/superheros', methods=['GET'])
     def get_superhero():
@@ -149,6 +205,13 @@ def create_app(test_config=None):
             'message': 'not found'
         }), 404
     
+    @app.errorhandler(422)
+    def not_found(error):
+        return jsonify({
+            'success': False,
+            'error': 422,
+            'message': 'unprocessabble entity'
+        }), 422
    
 
     return app
