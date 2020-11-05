@@ -40,10 +40,16 @@ To run the server, execute:
 python app.py
 ```
 # End-points
-* This API is deployed at 
+* This API is deployed at [superheros-api](https://superherosapi.herokuapp.com/)
 - https://superherosapi.herokuapp.com/add-superhero
 - https://superherosapi.herokuapp.com/superheros?page=1
 - https://superherosapi.herokuapp.com/dc-comics
+- https://superherosapi.herokuapp.com/superheros/<string:publisher>
+- https://superherosapi.herokuapp.com/<string:publisher>/<string:race>
+- https://superherosapi.herokuapp.com/superheros/<string:publisher>/<string:gender>
+- https://superherosapi.herokuapp.com//superhero/<int:character_id>
+ 
+
 
 ## POST 'https://superherosapi.herokuapp.com/add-superhero'
 - Create a new Superhero.
@@ -114,58 +120,7 @@ python app.py
 {
     "success": true,
     "superhero": [
-        {
-            "appearance": {
-                "eyeColor": "Yellow",
-                "gender": "Male",
-                "hairColor": "No Hair",
-                "height": [
-                    "6'8",
-                    "203 cm"
-                ],
-                "race": "Human",
-                "weight": [
-                    "980 lb",
-                    "441 kg"
-                ]
-            },
-            "biography": {
-                "aliases": [
-                    "Rick Jones"
-                ],
-                "alignment": "good",
-                "alterEgos": "No alter egos found.",
-                "firstAppearance": "Hulk Vol 2 #2 (April, 2008) (as A-Bomb)",
-                "fullName": "Richard Milhouse Jones",
-                "placeOfBirth": "Scarsdale, Arizona",
-                "publisher": "Marvel Comics"
-            },
-            "connections": {
-                "groupAffiliation": "Hulk Family; Excelsior (sponsor), Avengers (honorary member); formerly partner of the Hulk, Captain America and Captain Marvel; Teen Brigade; ally of Rom",
-                "relatives": "Marlo Chandler-Jones (wife); Polly (aunt); Mrs. Chandler (mother-in-law); Keith Chandler, Ray Chandler, three unidentified others (brothers-in-law); unidentified father (deceased); Jackie Shorr (alleged mother; unconfirmed)"
-            },
-            "id": 1,
-            "images": {
-                "lg": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/lg/1-a-bomb.jpg",
-                "md": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/md/1-a-bomb.jpg",
-                "sm": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/sm/1-a-bomb.jpg",
-                "xs": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/xs/1-a-bomb.jpg"
-            },
-            "name": "A-Bomb",
-            "powerstats": {
-                "combat": 64,
-                "durability": 80,
-                "intelligence": 38,
-                "power": 24,
-                "speed": 17,
-                "strength": 100
-            },
-            "slug": "1-a-bomb",
-            "work": {
-                "base": "-",
-                "occupation": "Musician, adventurer, author; formerly talk show host"
-            }
-        },
+       
         {
             "appearance": {
                 "eyeColor": "Yellow",
