@@ -208,163 +208,6 @@ python app.py
     "superhero": [
         {
             "appearance": {
-                "eyeColor": "Yellow",
-                "gender": "Male",
-                "hairColor": "No Hair",
-                "height": [
-                    "200",
-                    "61.0 meters"
-                ],
-                "race": "God / Eternal",
-                "weight": [
-                    "- lb",
-                    "0 kg"
-                ]
-            },
-            "biography": {
-                "aliases": [
-                    "Monitor",
-                    "Mobius"
-                ],
-                "alignment": "bad",
-                "alterEgos": "No alter egos found.",
-                "firstAppearance": "Crisis on Infinite Earths #4",
-                "fullName": "",
-                "placeOfBirth": "Moon of Qward",
-                "publisher": "DC Comics"
-            },
-            "connections": {
-                "groupAffiliation": "Sinestro Corps, Weaponers of Qward, Thunderers of Qward, Shadow Demons",
-                "relatives": "Monitor (\"brother\"), The Monitors"
-            },
-            "id": 26,
-            "images": {
-                "lg": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/lg/32-anti-monitor.jpg",
-                "md": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/md/32-anti-monitor.jpg",
-                "sm": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/sm/32-anti-monitor.jpg",
-                "xs": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/xs/32-anti-monitor.jpg"
-            },
-            "name": "Anti-Monitor",
-            "powerstats": {
-                "combat": 90,
-                "durability": 100,
-                "intelligence": 88,
-                "power": 100,
-                "speed": 50,
-                "strength": 100
-            },
-            "slug": "32-anti-monitor",
-            "work": {
-                "base": "Qward, Antimatter Universe",
-                "occupation": "-"
-            }
-        },
-        {
-            "appearance": {
-                "eyeColor": "Blue",
-                "gender": "Male",
-                "hairColor": "Blond",
-                "height": [
-                    "-",
-                    "0 cm"
-                ],
-                "race": null,
-                "weight": [
-                    "- lb",
-                    "0 kg"
-                ]
-            },
-            "biography": {
-                "aliases": [
-                    "-"
-                ],
-                "alignment": "good",
-                "alterEgos": "No alter egos found.",
-                "firstAppearance": "Aquaman #23 (October, 1965)",
-                "fullName": "Arthur Curry, Jr.",
-                "placeOfBirth": "-",
-                "publisher": "DC Comics"
-            },
-            "connections": {
-                "groupAffiliation": "Aquaman Family",
-                "relatives": "Aquaman (Orin/Arthur Curry) (father); Mera (mother); Koryak (half-brother); A.J. (half-brother); Atlan (grandfather); Tom Curry (adoptive grandfather, deceased); Orm Marius (uncle); Kordax (ancestor, deceased); Arthur Joseph Curry (adoptive cousin)"
-            },
-            "id": 29,
-            "images": {
-                "lg": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/lg/36-aquababy.jpg",
-                "md": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/md/36-aquababy.jpg",
-                "sm": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/sm/36-aquababy.jpg",
-                "xs": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/xs/36-aquababy.jpg"
-            },
-            "name": "Aquababy",
-            "powerstats": {
-                "combat": 14,
-                "durability": 14,
-                "intelligence": 10,
-                "power": 37,
-                "speed": 12,
-                "strength": 16
-            },
-            "slug": "36-aquababy",
-            "work": {
-                "base": "Atlantis",
-                "occupation": "-"
-            }
-        },
-        {
-            "appearance": {
-                "eyeColor": "Blue",
-                "gender": "Male",
-                "hairColor": "Black",
-                "height": [
-                    "5'10",
-                    "178 cm"
-                ],
-                "race": "Atlantean",
-                "weight": [
-                    "235 lb",
-                    "106 kg"
-                ]
-            },
-            "biography": {
-                "aliases": [
-                    "-"
-                ],
-                "alignment": "good",
-                "alterEgos": "No alter egos found.",
-                "firstAppearance": "Adventure Comics #269 (February, 1960)",
-                "fullName": "Garth",
-                "placeOfBirth": "Poseidonis, Atlantis",
-                "publisher": "DC Comics"
-            },
-            "connections": {
-                "groupAffiliation": "Aquaman Family; formerly Black Lantern Corps, Sentinels of Magic, Teen Titans",
-                "relatives": "Cerdian (son), Dolphin (wife), Berra (mother), Thar (father), Slizzath (uncle) Donna (grand-daughter)"
-            },
-            "id": 30,
-            "images": {
-                "lg": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/lg/37-aqualad.jpg",
-                "md": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/md/37-aqualad.jpg",
-                "sm": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/sm/37-aqualad.jpg",
-                "xs": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/xs/37-aqualad.jpg"
-            },
-            "name": "Aqualad",
-            "powerstats": {
-                "combat": 60,
-                "durability": 75,
-                "intelligence": 63,
-                "power": 89,
-                "speed": 42,
-                "strength": 44
-            },
-            "slug": "37-aqualad",
-            "work": {
-                "base": "Atlantis",
-                "occupation": "Adventurer; Magician, former Sidekick"
-            }
-        },
-        {
-            "appearance": {
                 "eyeColor": "Blue",
                 "gender": "Male",
                 "hairColor": "Blond",
@@ -422,4 +265,36 @@ python app.py
         }
     ]
 }
+```
+
+## GET 'https://superherosapi.herokuapp.com/superheros/<string:publisher>'
+- Fetches  a dictionary of superheros from a given publisher in URL
+- Request Arguments: publisher
+- Returns: a success value and a list of superheros from given publisher
+
+## GET 'https://superherosapi.herokuapp.com/<string:publisher>/<string:race>'
+- Fetches  a dictionary of superheros from a given publisher and race in URL
+- Request Arguments: publisher and race
+- Returns: a success value and a list of superheros from given publisher and race
+```bash
+https://superherosapi.herokuapp.com/superhero/DC Comics/Human
+```
+
+## GET 'https://superherosapi.herokuapp.com/superheros/<string:publisher>/<string:gender>'
+- Fetches  a dictionary of superheros from a given publisher and gender in URL
+- Request Arguments: publisher and gender
+- Returns: a success value and a list of superheros from given publisher and gender
+
+```bash
+https://superherosapi.herokuapp.com/superhero/DC Comics/Male
+```
+
+## GET 'https://superherosapi.herokuapp.com//superhero/<int:character_id>'
+
+- Fetches  a superhero from an ID in URL
+- Request Arguments: character_id
+- Returns: a success value and a superhero from given ID
+
+```bash
+https://superherosapi.herokuapp.com/superhero/2
 ```

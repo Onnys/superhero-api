@@ -85,7 +85,7 @@ def create_app(test_config=None):
             'superhero':formated_superhero
         })
 
-    @app.route('/superhero/<string:publisher>/<string:gender>')
+    @app.route('/superheros/<string:publisher>/<string:gender>')
     def get_hero_by_gender_and_publisher(publisher,gender):
         try:
             superhero = superheros.query.filter(superheros.publisher == publisher, superheros.gender == gender).all()    
