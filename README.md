@@ -1,5 +1,5 @@
 # SuperHeros API
-An Api that has endpoints that returns a superheroes list paginated in 10 heros
+An Api that provides information of super heros such as name, slug, intelligence, strength, speed, durability, power and so on.
 ## Getting Started 
 
 ### Installing Dependencies
@@ -226,13 +226,16 @@ python app.py
 - Fetches  a dictionary of superheros from a given publisher in URL
 - Request Arguments: publisher
 - Returns: a success value and a list of superheros from given publisher
+```bash
+https://superherosapi.herokuapp.com/superhero/DC Comics
+```
 
 ## GET 'https://superherosapi.herokuapp.com/<string:publisher>/<string:race>'
 - Fetches  a dictionary of superheros from a given publisher and race in URL
 - Request Arguments: publisher and race
 - Returns: a success value and a list of superheros from given publisher and race
 ```bash
-https://superherosapi.herokuapp.com/superhero/DC Comics/Human
+https://superherosapi.herokuapp.com/DC Comics/Human
 ```
 
 ## GET 'https://superherosapi.herokuapp.com/superheros/<string:publisher>/<string:gender>'
@@ -241,10 +244,10 @@ https://superherosapi.herokuapp.com/superhero/DC Comics/Human
 - Returns: a success value and a list of superheros from given publisher and gender
 
 ```bash
-https://superherosapi.herokuapp.com/superhero/DC Comics/Male
+https://superherosapi.herokuapp.com/superheros/DC Comics/Male
 ```
 
-## GET 'https://superherosapi.herokuapp.com//superhero/<int:character_id>'
+## GET 'https://superherosapi.herokuapp.com/superhero/<int:character_id>'
 
 - Fetches  a superhero from an ID in URL
 - Request Arguments: character_id
